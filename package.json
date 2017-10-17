@@ -1,0 +1,10 @@
+{
+  "fitbit": {
+    "appUUID": "d9574ba8-228d-4bb2-8d06-f8ed442de8a0",
+    "appType": "app",
+    "appDisplayName": "Autoinsult",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": []
+  }
+}

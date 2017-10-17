@@ -1,0 +1,14 @@
+<svg>
+  <rect class="background1" />
+  <rect class="background2" />
+  <textarea id="txtInsult" class="text" />
+  <text id="hourglass" class="hourglass" >⌛</text>
+  
+   <use id="btn-br" href="#combo-button-lower-right" fill="fb-peach" display="none">
+    <set href="combo-button-icon" attributeName="href" to="play.png"/>
+    <set href="combo-button-icon-press" attributeName="href" to="play_pressed.png"/>
+    <set href="combo-button-stroke" attributeName="display" to="none"/>
+  </use>
+  
+  
+</svg>
