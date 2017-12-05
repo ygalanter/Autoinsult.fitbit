@@ -5,6 +5,13 @@
     "appDisplayName": "Autoinsult",
     "iconFile": "resources/icon.png",
     "wipeColor": "#607d8b",
-    "requestedPermissions": []
+    "requestedPermissions": [
+      "access_internet"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Autoinsult"
+      }
+    }
   }
 }

@@ -14,7 +14,7 @@ btnBR.onactivate = function(evt) {
 function fetchInsult() {
   if (messaging.peerSocket.readyState === messaging.peerSocket.OPEN) {
     
-    txtInsult.innerText = "";
+    txtInsult.text = "";
     hourglass.style.display = "inline";
     btnBR.style.display = "none";
     
@@ -28,7 +28,7 @@ function fetchInsult() {
 // Display the insult received from the companion
 function processInsult(data) {
   hourglass.style.display = "none";
-  txtInsult.innerText = data;
+  txtInsult.text = data;
    btnBR.style.display = "inline";
 }
 
